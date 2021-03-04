@@ -1,0 +1,408 @@
+.calc_input {
+  width: -moz-available;
+  width: -webkit-fill-available;
+height: 50px;
+border: 1px solid #736464 !important;
+color: black !important;
+}
+.calc_select {
+  width: 100% !important;
+  text-align: center;
+  align-items: center;
+  font-size: 18px;
+height: 50px;
+line-height: 1;
+  background: url("data:image/svg+xml,%3Csvg width='16' height='16' viewBox='0 0 16 16' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M8.00002 11.8L1.40002 5.14655L2.53731 4.00005L8.00001 9.507L13.4627 4L14.6 5.14649L8.00002 11.8Z' fill='%23197B44'/%3E%3C/svg%3E") no-repeat right !important;
+  -webkit-appearance: none;
+/*   background-position-x: 150px !important; */
+	background-position: 95% !important;
+text-align-last: center;
+  text-align: center;
+border: 1px solid #736464 !important;
+color: black !important;
+}
+
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: center;
+}
+.center {
+  margin:auto;
+}
+.calc_image {
+display: block;
+max-width: 100%;
+height: auto;
+}
+.calc_logo {
+  display: block;
+  max-width: 30% !important;
+  height: auto;
+}
+/* GRID */
+
+/* CONTAINER */
+.calc_container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media (min-width: 768px) {
+  .calc_container {
+    width: 750px;
+  }
+
+}
+@media (max-width: 768px){
+	#main {
+		margin-top: -70px !important;
+	}
+		
+	.calc_select {
+		padding-right: 26px !important;
+	}
+	.th-width {
+		width: 60% !important;
+	}
+	.calc_tbl th, .calc_tbl td {
+  	vertical-align: top !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .calc_container {
+    width: 970px;
+  }
+	#main {
+		margin-top: 0;
+	}
+	.th-width {
+		width: 78% !important;
+	}
+}
+
+@media (min-width: 1200px) {
+  .calc_container {
+    width: 1170px;
+  }
+	#main {
+		margin-top: 0;
+	}
+	.th-width {
+		width: 78% !important;
+	}
+}
+
+
+/* ROW */
+.row {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 20px;
+}
+
+
+.col-xs-12 {
+  grid-column: span 12
+}
+
+.col-xs-11 {
+  grid-column: span 11;
+}
+
+.col-xs-10 {
+  grid-column: span 10
+}
+
+.col-xs-9 {
+  grid-column: span 9
+}
+
+.col-xs-8 {
+  grid-column: span 8
+}
+
+.col-xs-7 {
+  grid-column: span 7
+}
+
+.col-xs-6 {
+  grid-column: span 6
+}
+
+.col-xs-5 {
+  grid-column: span 5
+}
+
+.col-xs-4 {
+  grid-column: span 4
+}
+
+.col-xs-3 {
+  grid-column: span 3
+}
+
+.col-xs-2 {
+  grid-column: span 2
+}
+
+.col-xs-1 {
+  grid-column: span 1
+}
+
+@media (min-width: 768px) {
+  .col-sm-12 {
+    grid-column: span 12
+  }
+
+  .col-sm-11 {
+    grid-column: span 11;
+  }
+
+  .col-sm-10 {
+    grid-column: span 10
+  }
+
+  .col-sm-9 {
+    grid-column: span 9
+  }
+
+  .col-sm-8 {
+    grid-column: span 8
+  }
+
+  .col-sm-7 {
+    grid-column: span 7
+  }
+
+  .col-sm-6 {
+    grid-column: span 6
+  }
+
+  .col-sm-5 {
+    grid-column: span 5
+  }
+
+  .col-sm-4 {
+    grid-column: span 4
+  }
+
+  .col-sm-3 {
+    grid-column: span 3
+  }
+
+  .col-sm-2 {
+    grid-column: span 2
+  }
+
+  .col-sm-1 {
+    grid-column: span 1
+  }
+}
+
+@media (min-width: 992px) {
+  .col-md-12 {
+    grid-column: span 12
+  }
+
+  .col-md-11 {
+    grid-column: span 11;
+  }
+
+  .col-md-10 {
+    grid-column: span 10
+  }
+
+  .col-md-9 {
+    grid-column: span 9
+  }
+
+  .col-md-8 {
+    grid-column: span 8
+  }
+
+  .col-md-7 {
+    grid-column: span 7
+  }
+
+  .col-md-6 {
+    grid-column: span 6
+  }
+
+  .col-md-5 {
+    grid-column: span 5
+  }
+
+  .col-md-4 {
+    grid-column: span 4
+  }
+  .col-md-3 {
+    grid-column: span 3
+  }
+
+  .col-md-2 {
+    grid-column: span 2
+  }
+
+  .col-md-1 {
+    grid-column: span 1
+  }
+}
+  
+@media (min-width: 1200px) {
+  .col-lg-12 {
+    grid-column: span 12
+  }
+
+  .col-lg-11 {
+    grid-column: span 11;
+  }
+
+  .col-lg-10 {
+    grid-column: span 10
+  }
+
+  .col-lg-9 {
+    grid-column: span 9
+  }
+
+  .col-lg-8 {
+    grid-column: span 8
+  }
+
+  .col-lg-7 {
+    grid-column: span 7
+  }
+
+  .col-lg-6 {
+    grid-column: span 6
+  }
+
+  .col-lg-5 {
+    grid-column: span 5
+  }
+
+  .col-lg-4 {
+    grid-column: span 4
+  }
+
+  .col-lg-3 {
+    grid-column: span 3
+  }
+
+  .col-lg-2 {
+    grid-column: span 2
+  }
+
+  .col-lg-1 {
+    grid-column: span 1
+  }
+}
+@media print {
+  .pagebreak { page-break-before: always; } /* page-break-after works, as well */
+  @page { margin: 0; } 
+  body { margin: 1.6cm; }
+  .mt-2 {
+    padding-top: 1.6cm;
+  }
+  .mt-5 {
+    padding-top: 1.6cm;
+  }
+	
+}
+  /* vertical-align */
+  .vm {
+      vertical-align: middle;
+  }
+  .vt {
+      vertical-align: top;
+  }
+  .vb {
+      vertical-align: bottom;
+  }
+
+  /* margin */
+  .mt-5 {
+      margin-top: 9em;
+  }
+  .mt-2 {
+      margin-top: 5em;
+  }
+  .mt-1 {
+      margin-top: 3em;
+} 
+.mb-13 {
+  margin-bottom: 13em;
+}
+  .mr-1 {
+      margin-right: 1em !important;
+  }
+  /* font-size */
+  .calc_title {
+      font-size: 2em;
+      color: #188648;
+  }
+  .calc_sub-title {
+      font-size: 1em;
+      color: #188648;
+  }
+  .calc_h4{
+      display: block;
+      margin-block-start: 1.33em;
+      margin-block-end: 1.33em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      font-weight: bold;
+  }
+  #section_4 {
+    width: -webkit-fill-available;
+    width: -moz-available;
+    font-weight: bold;
+  }
+
+  /* table */
+  .calc_tbl {
+    border: none !important; 
+  margin-top: 18em;
+  }
+  .calc_tbl th, .calc_tbl td {
+    border: none !important;   
+  vertical-align: middle;
+  }
+
+/*   section   */
+#section_1 {
+max-width: 901px;
+}
+
+/* select  */
+
+  /* button */
+  .avia-button.avia-size-large {
+      padding: 15px 30px 13px;
+      font-size: 13px;
+      min-width: 139px;
+  }
+  .avia-button.avia-position-right {
+      float: right;
+      display: block;
+  }
+  .avia-button {
+      border-radius: 3px;
+      /* padding: 10px; */
+      font-size: 12px;
+      text-decoration: none;
+      display: inline-block;
+      border-bottom-style: solid;
+      border-bottom-width: 1px;
+      margin: 3px 0;
+      line-height: 1.2em;
+      position: relative;
+      font-weight: normal;
+      text-align: center;
+      max-width: 100%;
+  }
