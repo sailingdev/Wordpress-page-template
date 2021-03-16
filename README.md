@@ -1,0 +1,1 @@
+# Wordpress-page-template
